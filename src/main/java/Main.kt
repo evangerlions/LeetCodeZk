@@ -4,7 +4,10 @@ import kotlin.math.abs
 
 
 fun main(args: Array<String>) {
-    println("Hello World!".first())
+    println(
+        'B'.toInt()
+
+    )
     println(Solution().isMatch("a", "a*a"))
 }
 

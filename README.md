@@ -1,7 +1,6 @@
 # 刷题笔记
 
 ### 剑指 offer 第二版
-
 offer16 快速幂
 
 offer44 边界条件很多
@@ -26,3 +25,7 @@ offer44 边界条件很多
 解法：  
 归并排序  
 注意：mergeArrays 时数逆序对数量时规则，遇到相同数字取哪个。
+
+[剑指 Offer 52. 两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)  
+解法：  
+双指针遍历两个列表，遍历两遍，第二遍进行交换，目的是对齐，找到第一个相同的结点。
