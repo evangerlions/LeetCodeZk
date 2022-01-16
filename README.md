@@ -28,4 +28,8 @@ offer44 边界条件很多
 
 [剑指 Offer 52. 两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)  
 解法：  
-双指针遍历两个列表，遍历两遍，第二遍进行交换，目的是对齐，找到第一个相同的结点。
+双指针遍历两个列表，遍历两遍(目的是对齐)，找到第一个相同的结点。
+
+[剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)  
+解法：
+两次二分查找
