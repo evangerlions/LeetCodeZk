@@ -41,3 +41,11 @@ offer44 边界条件很多
 [剑指 Offer 54. 二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)  
 解法：  
 中序遍历，注意遍历方向和剪枝
+
+[剑指 Offer 55 - I. 二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/)  
+解法：  
+左右子树递归，中序遍历。
+
+[剑指 Offer 55 - II. 平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)  
+解法：  
+自下而上，后序递归，和二叉树深度刚好相反。
