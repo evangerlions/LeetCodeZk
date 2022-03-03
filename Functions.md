@@ -19,4 +19,8 @@ List<T> subList(int fromIndex, int toIndex)
 // 如果不想影响到原数组
 new ArrayList<T>(originList.subList(1, 2))
 ```
-2. 
+2. 数组的初始化
+```java
+int[] arr = new int[]{1, 2, 3};
+int[] arr = new int[3];
+```

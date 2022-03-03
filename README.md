@@ -49,3 +49,9 @@ offer44 边界条件很多
 [剑指 Offer 55 - II. 平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)  
 解法：  
 自下而上，后序递归，和二叉树深度刚好相反。
+
+[剑指 Offer 56 - I. 数组中数字出现的次数](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/)   
+基础：数组初始化，位运算，异或，判断位数字  
+解法：
+巧解，先遍历一次，找到两个不同数的异或结果，再根据位为 1 的位数，将数组拆分为两个子数组，再做异或。  
+基于：找出数组中唯一一个只出现一次的数字。
