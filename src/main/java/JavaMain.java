@@ -8,7 +8,6 @@ public class JavaMain {
 
         strArray = list.toArray(new String[list.size()]);
         StringBuilder s = new StringBuilder();
-        s.isEmpty()
     }
 
     private void print() {
