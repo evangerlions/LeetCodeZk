@@ -7,6 +7,7 @@ public class JavaMain {
 
         strArray = list.toArray(new String[list.size()]);
         StringBuilder s = new StringBuilder();
+        System.out.println(1 >> 0);
     }
 
     private void print() {
