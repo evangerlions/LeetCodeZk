@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
 
     for (nums in numsList) {
         val originNums = nums.clone()
-        sort.QuickSortLoop.sort(nums)
+        sort.QuickSortJava().sort(nums)
         if (!checkResult(nums, originNums)) {
             println("originNum: ${originNums.joinToString()}")
             println("num: ${nums.joinToString()}")
