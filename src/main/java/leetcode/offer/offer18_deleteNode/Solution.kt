@@ -1,11 +1,17 @@
 package leetcode.offer.offer18_deleteNode
 
 /**
+ * 剑指 Offer 18. 删除链表的节点
+ * https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/
+ * 给定单向链表的头指针和一个要删除的节点的值，定义一个函数删除该节点。
+ * 返回删除后的链表的头节点。
+ */
+
+/**
  * Example:
  * var li = ListNode(5)
  * var v = li.`val`
  * Definition for singly-linked list.
-
  */
 
 class ListNode(var `val`: Int) {
