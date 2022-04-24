@@ -8,6 +8,7 @@ public class JavaMain {
         strArray = list.toArray(new String[list.size()]);
         StringBuilder s = new StringBuilder();
         System.out.println(1 >> 0);
+        System.out.println("123".substring(1,3));
     }
 
     private void print() {
