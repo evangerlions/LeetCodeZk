@@ -1,5 +1,9 @@
 package leetcode.offer2.offer2_23_getIntersectionNote;
 
+/**
+ * 剑指 Offer II 023. 两个链表的第一个重合节点
+ * https://leetcode-cn.com/problems/3u1WK4/
+ */
 public class Solution {
     private  static class ListNode {
         int val;
