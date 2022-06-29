@@ -2,7 +2,8 @@ import java.util.*;
 
 public class JavaMain {
     public static void main(String[] args) {
-        List<String> list = new LinkedList<>();
+        ArrayList<String> list = new ArrayList<>();
+        list.remove()
         String[] strArray = new String[0];
 
         strArray = list.toArray(new String[list.size()]);
