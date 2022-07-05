@@ -9,7 +9,6 @@ import java.util.LinkedList;
 class Solution {
     public int[] asteroidCollision(int[] asteroids) {
         LinkedList<Integer> stack = new LinkedList<>();
-
         LinkedList<Integer> ret = new LinkedList<>();
         for (int i = 0; i < asteroids.length; i++) {
             int asteroid = asteroids[i];
